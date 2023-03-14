@@ -9,6 +9,12 @@ For example, for observational study, the treatment is assigned by individual's 
 ## Why data from randomized trial can provide more 'causal' information compared with observation data?
 ###
 The reason is that treatment assignment is replaced by artificial random number generator, and we are confident enough that random number generator is independent from any variable (known/unknown) if it passed the random test. For example, we can set gammbing to make people to trust randomness of coin or dice, or we can set gacha game to make people trust randomness of random generator of computer. So, the treatment assignemnt can not be effect of any variable that we want to study.
+###
+The philosophy of such randomization is "Socratic ignorance": that the world is too complex to understand, what we know is only our own ignorance. The randomized assignment can be regarded as the application of such philosophy.
+###
+ChatGPT: The world is a highly complex system, and our understanding of it is limited. What we perceive as knowledge is often only a recognition of our own ignorance.
+###
+Socratic: As I know only one thing–that I know nothing.
 
 ## What should we do to get a 'causal' model?
 ###
