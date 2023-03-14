@@ -20,20 +20,26 @@ Following such sheme, the 'causal' knowledge of randomized trial can be abstract
 
 ## How to pass the 'causal' prediction test?
 
-### The first step is to design a valuable randomized trial from history records.
+### 
+The first step is to design a valuable randomized trial from history records.
 
-### The second step is to collect high dimensional, hetergeneous, multi-source data in randomized trial. The data collection of pre-treatment variable should cost not too much for application for other individuals. In the same time, observation can be complement for the 'causal' model learning.
+### 
+The second step is to collect high dimensional, hetergeneous, multi-source data in randomized trial. The data collection of pre-treatment variable should cost not too much for application for other individuals. In the same time, observation can be complement for the 'causal' model learning.
 
-### The third step is to learn a 'causal' model from data and do the 'causal' prediction test. Then we repeat those three steps until it passed.
+### 
+The third step is to learn a 'causal' model from data and do the 'causal' prediction test. Then we repeat those three steps until it passed.
 
-### The forth step is to collect observation data and generalize the model to observation data for real world applications.
+### 
+The forth step is to collect observation data and generalize the model to observation data for real world applications.
 
 ## What the 'causal' model can be used to do?
-### It can only provide decision advices for given treatment in randomized trial. If a treatment variable was never randomized, then we can never get 'causal' knowledge about its effect except we add common accepted assumptations by domain experts.
+### 
+It can only provide decision advices for given treatment in randomized trial. If a treatment variable was never randomized, then we can never get 'causal' knowledge about its effect except we add common accepted assumptations by domain experts.
 
 
 ## What should we do to update our 'causal' model?
-### In order to update our 'causal' model, we need to do new randomized trials and passed the new test. Sometime, we can do some harmless randomized trials to update the model.
+### 
+In order to update our 'causal' model, we need to do new randomized trials and passed the new test. Sometime, we can do some harmless randomized trials to update the model.
 
 
 # Randomized Dataset
