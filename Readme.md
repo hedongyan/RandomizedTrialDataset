@@ -18,7 +18,7 @@ Socrates: As I know only one thing–that I know nothing.
 ###
 Confucius: When you know it you know it, when you don’t know, you don’t know. This is knowledge.
 
-## What should we do to get a 'causal' model?
+## What should we do to get a 'causal' model? Why such 'causal' model is useful?
 ###
 The average causal effect 
 be inferenced from randomized trial as we know. Most importantly, we can learn a model to predict outcome for individuals under intervention, although the individual causal effect can not be learned as [1] illustrated. Any model which claimed 'causality'/'causal' should be evaluated in order to avoid useless, and untestable assumptations for reality. When the model passed the 'causal' prediction test, such as precision>0.95 and recall>0.95, then it can be called a "causal model" in this study. But we must understand that individual causal effect can never be learned if there was no widerly accepted physical rule/law/knowledge. 
