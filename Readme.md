@@ -4,7 +4,7 @@
 ###
 Imagine a perfect (complete compliance, no measurement error, no missing data, no observer effect) randomized trial and observational study for same population, the only difference is the treatment assignment.
 ###
-For example, for observational study, the treatment is assigned by individual's own environment and model which may introduce confouding bias. However, for randomized trial, treatment assignment is independent from any known and unknown variables.
+For example, for observational study, the treatment is assigned by individual's own environment and model which may introduce confouding bias. However, for randomized trial, treatment assignment is independent from any known and unknown variables in our study.
 
 ## Why data from randomized trial can provide more 'causal' information compared with observation data?
 ###
