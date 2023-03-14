@@ -19,9 +19,13 @@ The average causal effect could be inferenced from randomized trial as we know. 
 Following such sheme, the 'causal' knowledge of randomized trial can be abstracted by our 'causal' model. Next, we can provide advices for other individuals who were not in the randomized trial: what will happen if they follow the decision of the 'causal' model.
 
 ## How to pass the 'causal' prediction test?
+
 ### The first step is to design a valuable randomized trial from history records.
+
 ### The second step is to collect high dimensional, hetergeneous, multi-source data in randomized trial. The data collection of pre-treatment variable should cost not too much for application for other individuals. In the same time, observation can be complement for the 'causal' model learning.
+
 ### The third step is to learn a 'causal' model from data and do the 'causal' prediction test. Then we repeat those three steps until it passed.
+
 ### The forth step is to collect observation data and generalize the model to observation data for real world applications.
 
 ## What the 'causal' model can be used to do?
@@ -33,6 +37,7 @@ Following such sheme, the 'causal' knowledge of randomized trial can be abstract
 
 
 # Randomized Dataset
+
 |                                                             Dataset                                                             |   Instance  |                                                            Outcome                                                            |                                             Treatment                                            |                                  Link                                  |
 |:-------------------------------------------------------------------------------------------------------------------------------:|:-----------:|:-----------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------:|
 |                   CPAP Pressure and Flow Data from a Local Trial of 30 Adults at the University of Canterbury                   |      30     |                                                           Breathing                                                           |                                Continuous positive airway pressure                               |        https://physionet.org/content/cpap-data-canterbury/1.0.1/       |
