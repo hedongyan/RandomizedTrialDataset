@@ -14,7 +14,7 @@ The philosophy of such randomization is "Socratic ignorance": that the world is 
 ###
 ChatGPT: The world is a highly complex system, and our understanding of it is limited. What we perceive as knowledge is often only a recognition of our own ignorance.
 ###
-Socratic: As I know only one thing–that I know nothing.
+Socrates: As I know only one thing–that I know nothing.
 
 ## What should we do to get a 'causal' model?
 ###
