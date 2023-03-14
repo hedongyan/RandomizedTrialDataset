@@ -2,7 +2,7 @@
 
 ## What is the diffference of data that was generated from randomized trial and observation study?
 ###
-Image a perfect (complete compliance, no measurement error, no missing data, no observer effect) randomized trial and observational study for same population, the only difference is the treatment assignment.
+Imagine a perfect (complete compliance, no measurement error, no missing data, no observer effect) randomized trial and observational study for same population, the only difference is the treatment assignment.
 ###
 For example, for observational study, the treatment is assigned by individual's own environment and model which may introduce confouding bias. However, for randomized trial, treatment assignment is independent from any known and unknown variables.
 
