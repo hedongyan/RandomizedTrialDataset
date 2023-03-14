@@ -44,7 +44,7 @@ It can only provide decision advices for given treatment in randomized trial. If
 
 ## What should we do to update 'causal' information of our 'causal' model?
 ### 
-In order to update our 'causal' model, we need to do new randomized trials and passed the new test. Sometime, we can do some harmless randomized trials to update the model.
+In order to update our 'causal' model, we need to do new randomized trials and passed the new test. Sometime, we can do some harmless randomized trials for the trade-off between exploration and exploitation.
 
 
 # Randomized Dataset
