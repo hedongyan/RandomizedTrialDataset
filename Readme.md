@@ -14,15 +14,15 @@ The reason is that treatment assignment is replaced by artificial random number 
 ###
 The average causal effect could be inferenced from randomized trial as we know. Most importantly, we can learn a model to predict outcome for individuals under intervention, although the individual causal effect can not be learned as [1] illustrated. Any model which claimed 'causality'/'causal' should be evaluated in order to avoid useless, and untestable assumptations for reality. When the model passed the 'causal' prediction test, such as precision>0.95 and recall>0.95, then it could be called a "causal model" in this study. But we must understand that individual causal effect can never be learned if there was no widerly accepted physical rule/law/knowledge. 
 ###
-Following such sheme, the 'causal' knowledge of randomized trial can be abstracted by our 'causal' model. Next, we can provide advices for other individuals who were not in the randomized trial: what will happen if they follow the decision of the 'causal' model.
+Following such sheme, the 'causal' knowledge of randomized trial can be abstracted by our 'causal' model. Next, we can provide advices for other individuals who were not in the randomized trial: what will happen if they follow the decision of the 'causal' model rather than what will happen if they follow the original treatment assignment.
 
 ## How to pass the 'causal' prediction test?
 
 ### 
-The first step is to design a valuable randomized trial from history records.
+The first step is to design a **valuable** randomized trial from history records.
 
 ### 
-The second step is to collect high dimensional, hetergeneous, multi-source data in randomized trial. The data collection of pre-treatment variable should cost not too much for application for other individuals. In the same time, observation can be complement for the 'causal' model learning.
+The second step is to collect **high dimensional**, **hetergeneous**, **multi-source** data in randomized trial. The data collection of pre-treatment variable should cost not too much addressing futural application cost for other individuals. In the same time, observation can be complement for the 'causal' model learning.
 
 ### 
 The third step is to learn a 'causal' model from data and do the 'causal' prediction test. Then we repeat those three steps until it passed.
@@ -32,7 +32,7 @@ The forth step is to collect observation data and generalize the model to observ
 
 ## What the 'causal' model can be used to do?
 ### 
-It can only provide decision advices for given treatment in randomized trial. If a treatment variable was never randomized, then we can never get 'causal' knowledge about its effect except we add common accepted assumptations by domain experts.
+It can only provide decision advices for given treatment in randomized trial. If a treatment was never randomized, then we can never get 'causal' knowledge about its effect except we add common accepted assumptations by domain experts.
 
 
 ## What should we do to update our 'causal' model?
@@ -56,3 +56,5 @@ In order to update our 'causal' model, we need to do new randomized trials and p
 |                                                    Megafon uplift competition                                                   | 1.5 million |                                                        User conversion                                                        |                                          Exposure                                           | https://ods.ai/tracks/df21-megafon/competitions/megafon-df21-comp/data |
 |                                                    Infant Health and Development Program                                                   | 1090 |                                                        Cognitive development, Behavior problems, Health status                                                       |                                          Home visits, attendance at a special child development center                                           | https://www.icpsr.umich.edu/web/HMCA/studies/9795 |
 |                                                    National Supported Work Evaluation Study                                                   | 6600 |                                                        effects of the Supported Work Program                                                       |                                          Offered a job in supported work                                           | https://www.icpsr.umich.edu/web/ICPSR/studies/7865 |
+
+[1] Gentzel, Amanda M., Purva Pruthi, and David Jensen. "How and why to use experimental data to evaluate methods for observational causal inference." International Conference on Machine Learning. PMLR, 2021.
