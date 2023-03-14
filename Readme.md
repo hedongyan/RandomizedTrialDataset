@@ -1,5 +1,3 @@
-# ---------------------Randomized Trail Dataset---------------------
-
 # Introduction
 
 ## What is the diffference of data that was generated from randomized trial and observation study?
