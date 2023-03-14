@@ -22,7 +22,7 @@ Following such sheme, the 'causal' knowledge of randomized trial can be abstract
 The first step is to design a **valuable** randomized trial from history records.
 
 ### 
-The second step is to collect **high dimensional**, **hetergeneous**, **multi-source** data in randomized trial. The data collection of pre-treatment variable should cost not too much addressing futural application cost for other individuals. In the same time, observation can be complement for the 'causal' model learning.
+The second step is to collect **high dimensional**, **hetergeneous**, **multi-source** data in randomized trial to increase to probability that the model pass the 'causal' prediction test. The data collection of pre-treatment variable should cost not too much addressing futural application cost for other individuals. In the same time, observation can be complement for the 'causal' model learning.
 
 ### 
 The third step is to learn a 'causal' model from data and do the 'causal' prediction test. Then we repeat those three steps until it passed.
