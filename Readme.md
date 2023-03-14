@@ -1,5 +1,38 @@
 # Dataset from Randomized Trial
-# Dataset
+
+# Introduction
+
+## What is the diffference of data that was generated from randomized trial and observation study?
+###
+Image a perfect (complete compliance, no measurement error, no missing data, no observer effect) randomized trial and observational study for same population, the only difference is the treatment assignment.
+###
+For example, for observational study, the treatment is assigned by individual's own model which may introduce confouding bias. However, for randomized trial, treatment assignment is independent from any known and unknown variables.
+
+## Why data from randomized trial can provide more 'causal' information compared with observation data?
+###
+The reason is that treatment assignment is replaced by artificial random number generator, and we are confident enough that random number generator is independent from any variable (known/unknown) if it passed the random test. For example, we can set gammbing to make people to trust randomness of coin or dice, or we can set gacha game to make people trust randomness of random generator of computer. So, the treatment assignemnt can not be effect of any variable that we want to study.
+
+## What should we do to get a 'causal' model?
+###
+The average causal effect could be inferenced from randomized trial as we know. Most importantly, we can learn a model to predict outcome for individuals under intervention, although the individual causal effect can not be learned as [1] illustrated. Any model which claimed 'causality'/'causal' should be evaluated in order to avoid useless, and untestable assumptations for reality. When the model passed the 'causal' prediction test, such as precision>0.95 and recall>0.95, then it could be called a "causal model" in this study. But we must understand that individual causal effect can never be learned if there was no widerly accepted physical rule/law/knowledge. 
+###
+Following such sheme, the 'causal' knowledge of randomized trial can be abstracted by our 'causal' model. Next, we can provide advices for other individuals who were not in the randomized trial: what will happen if they follow the decision of the 'causal' model.
+
+## How to pass the 'causal' prediction test?
+### The first step is to design a **valuable** randomized trial from history records.
+### The second step is to collect high dimensional, hetergeneous, multi-source data in randomized trial. The data collection of pre-treatment variable should cost not too much for application for other individuals. In the same time, observation can be complement for the 'causal' model learning.
+### The third step is to learn a 'causal' model from data and do the 'causal' prediction test. Then we repeat those three steps until it passed.
+### The forth step is to collect observation data and generalize the model to observation data for real world applications.
+
+## What the 'causal' model can be used to do?
+### It can only provide decision advices for given treatment in randomized trial. If a treatment variable was never randomized, then we can never get 'causal' knowledge about its effect except we add common accepted assumptations by domain experts.
+
+
+## What should we do to update our 'causal' model?
+### In order to update our 'causal' model, we need to do new randomized trials and passed the new test. Sometime, we can do some harmless randomized trials to update the model.
+
+
+# Randomized Dataset
 |                                                             Dataset                                                             |   Instance  |                                                            Outcome                                                            |                                             Treatment                                            |                                  Link                                  |
 |:-------------------------------------------------------------------------------------------------------------------------------:|:-----------:|:-----------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------:|
 |                   CPAP Pressure and Flow Data from a Local Trial of 30 Adults at the University of Canterbury                   |      30     |                                                           Breathing                                                           |                                Continuous positive airway pressure                               |        https://physionet.org/content/cpap-data-canterbury/1.0.1/       |
