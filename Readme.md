@@ -44,7 +44,7 @@ The forth step is to collect observation data and generalize the model to observ
 It can only provide decision advices for given treatment in randomized trial. If a treatment was never randomized, then we can never get 'causal' knowledge about its effect except we add common accepted assumptations by domain experts.
 
 
-## What should we do to update 'causal' information of our 'causal' model?
+## What should we do to update 'causal' information in our 'causal' model?
 ### 
 In order to update our 'causal' model, we need to do new randomized trials and passed the new test. Sometime, we can do some harmless randomized trials for the trade-off between exploration and exploitation.
 
