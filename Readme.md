@@ -17,6 +17,8 @@ ChatGPT: The world is a highly complex system, and our understanding of it is li
 Socrates: As I know only one thing–that I know nothing.
 ###
 Confucius: When you know it you know it, when you don’t know, you don’t know. This is knowledge.
+###
+Heart Sutra: There is no ignorance, and there is also no end to ignorance.
 
 ## What should we do to get a 'causal' model? Why such 'causal' model is useful?
 ###
