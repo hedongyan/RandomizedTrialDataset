@@ -11,14 +11,6 @@ For example, for observational study, the treatment is assigned by individual's 
 The reason is that treatment assignment is replaced by artificial random number generator, and we are confident enough that random number generator is independent from any variable (known/unknown) if it passed the random test. For example, we can set gammbing to make people to trust randomness of coin and dice, or we can set gacha game to make people trust randomness of random generator of computer. Because if the random number is predictable in limited cost, then the companies will lose money and they will go bankrupt soon. So, the treatment assignemnt can not be effect of any variable that we want to study.
 ###
 The philosophy of such randomization is "Socratic Ignorance" and "Law of Negation of Negation / Double Negtive": the world is too complex to understand, what we know is only our own ignorance. The randomized assignment can be regarded as the application of such philosophy. From the negation of ignorance, we can get some knowledge of 'causal'.
-###
-ChatGPT: The world is a highly complex system, and our understanding of it is limited. What we perceive as knowledge is often only a recognition of our own ignorance.
-###
-Socrates: As I know only one thing–that I know nothing.
-###
-Confucius: When you know it you know it, when you don’t know, you don’t know. This is knowledge.
-###
-Heart Sutra: There is no ignorance, and there is also no end to ignorance.
 
 ## What should we do to get a 'causal' model? Why such 'causal' model is useful?
 ###
